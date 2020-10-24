@@ -1,4 +1,3 @@
-```
 simRA<-function(SF,LS,numberLitter,eggWeight,offspringWeight,
                              lifespan=5001+(numberLitter-1)*(round(5001/SF,digits=0)),
                              ymax=NULL,xmax=NULL,cex.axis=0.8,col="black",
@@ -83,4 +82,4 @@ simRA<-function(SF,LS,numberLitter,eggWeight,offspringWeight,
   
   invisible(data)
 }
-```
+
