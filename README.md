@@ -1,13 +1,17 @@
 # ReproductiveBurden
-This repository contains a R-package that allows to simulate and graphically illustrate the expected reproductive burden as a function of time for a live-bearing species with a specific degree of superfetation and litter size
+This repository contains a R-package that allows to simulate and graphically illustrate the expected reproductive burden during pregnancy for a live-bearing species as a function of time and for a specific degree of superfetation, litter size, egg mass at fertilization, and offspring mass at birth.
 
-# Instructions for installation
-(1) Download the package file 'ReproductiveBurden_1.0.tar.gz'
-(2) Open R/R-studio
-(3) Locate the working directory to this file
-(4) Install devtools-package: install.packages("devtools")
-(5) Load devtools-package: library("devtools")
-(6) Build ReproductiveBurden-package: build("ReproductiveBurden")
-(7) Install ReproductiveBurden-package: install("ReproductiveBurden")
-(8) Load it: library("ReproductiveBurden")
+## Instructions for installation
+- Download the package file 'ReproductiveBurden_1.0.tar.gz'
+- Open R/RStudio
+- Locate the working directory to this file
 
+From within R:
+```
+install.packages("devtools")
+library("devtools")
+
+build("ReproductiveBurden")
+install("ReproductiveBurden")
+library("ReproductiveBurden")
+```
