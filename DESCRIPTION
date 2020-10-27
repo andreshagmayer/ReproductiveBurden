@@ -1,0 +1,9 @@
+Package: ReproductiveBurden
+Type: Package
+Title: Simulating reproductive burden
+Version: 1.0
+Date: 2020-07-29
+Author: Andres Hagmayer
+Maintainer: Who to complain to <andreshagmayer@bluewin.ch>
+Description: Simulating and graphically illustrating the expected reproductive burden during pregnancy for a live-bearing species as a function of time and for a specific degree of superfetation, litter size, egg mass at fertilization, and offspring mass at birth. 
+License: none
